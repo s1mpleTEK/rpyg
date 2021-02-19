@@ -10,8 +10,6 @@ from Player import Player
 def main():
     try:
         player = Player()
-        player.setName()
-        player.setJob()
         player.getInfo()
         exit
     except (EnvironmentError, KeyboardInterrupt):
